@@ -1,0 +1,59 @@
+{
+  "name": "critter-heads",
+  "version": "0.1.1",
+  "description": "Animated cartoon animals for React and the web: a fox, owl, cat, raccoon, panda, shiba, bunny, bear, frog and otter, each with 12 expressions they act out their own way. SVG, zero runtime dependencies, seekable for frame-exact video.",
+  "type": "module",
+  "main": "./src/react.js",
+  "module": "./src/react.js",
+  "types": "./src/critter-heads.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./src/critter-heads.d.ts",
+      "default": "./src/react.js"
+    },
+    "./vanilla": {
+      "types": "./src/vanilla.d.ts",
+      "default": "./src/index.js"
+    },
+    "./characters/*": "./src/characters/*.js"
+  },
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "react": ">=18"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "keywords": [
+    "react",
+    "avatar",
+    "animation",
+    "svg",
+    "character",
+    "mascot",
+    "agent",
+    "status",
+    "web-component",
+    "cartoon",
+    "ai-agent",
+    "video"
+  ],
+  "author": "Elgen Mar Arinasa",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Elgen69/critter-heads.git",
+    "directory": "packages/critter-heads"
+  },
+  "homepage": "https://github.com/Elgen69/critter-heads#readme",
+  "bugs": {
+    "url": "https://github.com/Elgen69/critter-heads/issues"
+  }
+}
